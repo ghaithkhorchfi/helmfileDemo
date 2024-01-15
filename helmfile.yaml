@@ -1,0 +1,11 @@
+repositories:
+  - name: helloworld
+    url: git+https://github.com/ghaithkhorchfi/helmfileDemo@etap-service?ref=master&sparse=0
+releases:
+  - name: etap-question
+    chart: ./question-answer
+    installed: true
+  - name: etap-service
+    chart: helmfileDemo/etap-service/etap-service
+    installed: true
+    
